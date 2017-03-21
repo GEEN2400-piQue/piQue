@@ -1,0 +1,85 @@
+<!--Katie Steward::piQue::GEEN2400::appInitialization
+2/26/2017
+history javascript-->
+
+<head>
+  <title>piQue</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  {{> Template.dynamic template=template_name}}
+</body>
+
+<template name="piQue">
+  <div class = "top">
+  <h1>pi<span class = "Q">Q</span>ue</h1>
+  <h3>-my interest-</h3>
+  </div>
+  <div class = "middle">
+  <br>
+  <button><span class = "buttonText">connect</span><img class = "buttonImage" src="images/bluetooth.png" width="25" height="25"></button>
+   <br>
+  <button onclick="alert('Reading data off bean...');window.close();"><span class = "buttonText">read</span><img class = "buttonImage" src="images/book.png" width="25" height="25"></button>
+   <br>
+  <button><span class = "buttonText">reset</span><img class = "buttonImage" src="images/reset.png" width="25" height="25"></button>
+   <br>
+  <button><span class = "buttonText">history</span><img class = "buttonImage" src="images/graph.png" width="25" height="25"></button>
+  <br>
+  <br>
+  </div>
+  <div class = "bottom">
+   <br>
+   <br>
+   <br>
+  </div>
+</template>
+
+<template name="history">
+  <div class = "top">
+    <h1>pi<span class = "Q">Q</span>ue</h1>
+    <h3>-my interest-</h3>
+  </div>
+  <div class = "middle">
+    <h4>History</h4>
+    <h5>Activity Points:</h5>
+      <p class = "topcounter">      Today:  {{points}}</p> 
+      <p class = "counters">      This week: {{weeklyPoints}}</p>
+      <p class = "counters">      This month: {{monthlyPoints}}</p>
+      <p class = "counters">      This year: {{yearlyPoints}}</p>
+  </div>
+  <div class = "bottom">
+  <button class = "backButton"><span class = "backText">Back</span></button>
+  </div>
+</template>
+
+<template name="connect">
+  <div class = "top">
+    <h1>pi<span class = "Q">Q</span>ue</h1>
+    <h3>-my interest-</h3>
+  </div>
+  <div class = "middle">
+    <h4>Connect</h4>
+    <h5>Connected Devices:</h5>
+    <p class = "topcounter">     Coty's Light Blue Bean</p>
+  </div>
+  <div class = "bottom">
+    <button class = "backButton"><span class = "backText">Back</span></button>
+    <button class = "pairButton" onclick="alert('Pairing...');window.close();"><span class = "backText">Pair</span></button>
+  </div>
+</template>
+
+<template name="reset">
+  <div class = "top">
+    <h1>pi<span class = "Q">Q</span>ue</h1>
+    <h3>-my interest-</h3>
+  </div>
+  <div class = "middle">
+  <h4>Reset</h4>
+  <h6>Are you sure you want to erase all your data?</h6>
+  </div>
+  <div class = "bottom">
+    <button class = "backButton"><span class = "yesnoText">Yes</span></button>
+    <button class = "pairButton"><span class = "yesnoText">No</span></button>
+  </div>
+</template>

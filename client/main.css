@@ -1,0 +1,116 @@
+/* CSS declarations go here */
+button{ 
+	background: lightgray; 
+	border-radius: 10px; 
+	width: 100px; 
+	margin: 0px 25px 2px 25px;
+	text-align: left;
+	font-family: Veranda;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+body{ 
+	width: 150px; 
+	height: 250px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+h3{
+	text-align: center;
+	margin-top: -1.8em;
+	margin-bottom: 0.2em;
+	color: lightblue;
+	font-size: 90%;
+}
+h4{
+	text-align: center;
+	margin-top: 0.2em;
+}
+h5{
+	margin-top:-1em;
+	color:gray;
+}
+h6{
+	text-align: center;
+	margin-top:-1em;
+	color:gray;
+}
+.top{ 
+	background-color: gray; 
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	height: 20%; 
+}
+.middle{ 
+	background-color: white;
+	height: 65%;
+}
+.bottom{ 
+	background-color: lightblue;
+	height: 15%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.buttonText{
+	position: relative;
+	top: 0.2em;
+	color: #666666;
+}
+.Q{
+	color:lightblue;
+}
+
+.buttonImage{
+	float: right;
+}
+
+.backButton{
+	background: lightgray; 
+	border-radius: 10px; 
+	width: 60px; 
+	margin: 0px 10px 0px 25px;
+	text-align: left;
+	font-family: Georgia;
+	position: relative;
+	left: -18px;
+	top: 7px;
+	font-weight: normal;
+}
+
+.counters{
+	font-size: 65%;
+	margin-left: 2em;
+}
+
+.topcounter{
+	font-size: 65%;
+	margin-left: 2em;
+	margin-top: -1em;
+}
+
+.pairButton{
+	background: lightgray; 
+	border-radius: 10px; 
+	width: 60px; 
+	margin: 0px 10px 0px 25px;
+	text-align: left;
+	font-family: Georgia;
+	position: relative;
+	right: -58px;
+	top: -17px;
+	font-weight: normal;
+}
+.yesnoText{
+	position: relative;
+	left: 0.6em;
+	color: #666666;
+}
+.backText{
+	position: relative;
+	left: 0.2em;
+	color: #666666;
+}
